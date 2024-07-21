@@ -1,0 +1,25 @@
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Ensures title and links are spaced apart */
+  padding: 5px;
+  margin: 0;
+  height: 100px;
+}
+
+/* Title Styles */
+.navbar-title {
+  font-size: 50px;
+}
+
+/* Links Container Styles */
+.navbar-links {
+  padding-right: 10px;
+  display: flex; /* Ensure links are displayed inline */
+  gap: 10px; /* Add spacing between links */
+}
+.Link{
+  font-size: 20px;
+}
